@@ -2,30 +2,6 @@
 
 import { useState } from "react";
 import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,"use client";
-
-import { useState } from "react";
-import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-  BarChart,
-  Bar,
-} from "recharts";
-import {
-  TrendingUp,
-  ShoppingBag,
-  Users,
   Package,
   ArrowUpRight,
   ArrowDownRight,
