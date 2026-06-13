@@ -1,29 +1,4 @@
 
-import { Zap, Globe, Mail, GitFork, Rss } from "lucide-react";
-
-const FOOTER_LINKS = {
-  Products: ["Audio", "Computing", "Wearables", "Workspace", "New Arrivals"],
-  Company: ["About Us", "Careers", "Blog", "Press", "Partners"],
-  Support: ["Help Center", "Shipping", "Returns", "Warranty", "Track Order"],
-  Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy", "Accessibility"],
-};
-
-const SOCIAL_ICONS = [
-  { icon: Globe, label: "Website" },
-  { icon: Mail, label: "Email" },
-  { icon: GitFork, label: "GitHub" },
-  { icon: Rss, label: "Blog" },
-];
-
-export default function Footer() {
-  return (
-    <footer className="border-t border-[#1a1a1a] pt-16 pb-8 mt-0">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-10 mb-16">
-          {/* Brand */}
-          <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-7 h-7 bg-[#e8ff47] rounded flex items-center justify-center">
                 <Zap size={14} className="text-[#080808]" fill="#080808" />
               </div>
               <span className="font-display font-bold text-lg text-white">
