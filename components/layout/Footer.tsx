@@ -1,18 +1,4 @@
-import { Zap, Globe, Mail, GitFork, Rss } from "lucide-react";
 
-const FOOTER_LINKS = {
-  Products: ["Audio", "Computing", "Wearables", "Workspace", "New Arrivals"],
-  Company: ["About Us", "Careers", "Blog", "Press", "Partners"],
-  Support: ["Help Center", "Shipping", "Returns", "Warranty", "Track Order"],
-  Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy", "Accessibility"],
-};
-
-const SOCIAL_ICONS = [
-  { icon: Globe, label: "Website" },
-  { icon: Mail, label: "Email" },
-  { icon: GitFork, label: "GitHub" },
-  { icon: Rss, label: "Blog" },
-];
 
 export default function Footer() {
   return (
