@@ -29,10 +29,6 @@ export default function ProductCard({ product, className }: ProductCardProps) {
     setTimeout(() => setAddedAnimation(false), 1500);
   };
 
-  const handleWishlist = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    dispatch(toggleWishlist(product));
-  };
 
   const handleQuickView = (e: React.MouseEvent) => {
     e.stopPropagation();
