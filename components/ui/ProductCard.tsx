@@ -30,10 +30,7 @@ export default function ProductCard({ product, className }: ProductCardProps) {
   };
 
 
-  const handleQuickView = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    dispatch(openQuickView(product));
-  };
+
 
   return (
     <div
