@@ -69,10 +69,7 @@ const STAT_CARDS = [
 const CustomTooltip = ({ active, payload, label }: any) => {
   if (active && payload && payload.length) {
     return (
-      <div className="bg-[#1a1a1a] border border-[#2e2e2e] rounded-xl p-3 shadow-xl">
-        <p className="text-[#888] text-xs mb-2">{label}</p>
-       
-      </div>
+     
     );
   }
   return null;
