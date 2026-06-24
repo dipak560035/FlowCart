@@ -86,14 +86,7 @@ export default function Dashboard() {
       {/* Sidebar */}
       <div className="flex">
         <aside className="hidden lg:flex flex-col w-64 fixed top-0 left-0 bottom-0 bg-[#111] border-r border-[#1a1a1a] p-6">
-          <Link href="/" className="flex items-center gap-2 mb-10">
-            <div className="w-7 h-7 bg-[#e8ff47] rounded flex items-center justify-center">
-              <Zap size={14} className="text-[#080808]" fill="#080808" />
-            </div>
-            <span className="font-display font-bold text-lg text-white">
-              Flow<span className="text-[#e8ff47]">Cart</span>
-            </span>
-          </Link>
+        
 
           <nav className="space-y-1">
             {[
