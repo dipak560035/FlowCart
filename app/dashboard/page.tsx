@@ -128,10 +128,7 @@ export default function Dashboard() {
               >
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-[#555] text-xs font-medium">{stat.label}</span>
-                  <div
-                    className="w-8 h-8 rounded-xl flex items-center justify-center"
-                    style={{ backgroundColor: `${stat.color}15` }}
-                  >
+                
                     <stat.icon size={14} style={{ color: stat.color }} />
                   </div>
                 </div>
