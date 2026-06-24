@@ -88,18 +88,7 @@ export default function Dashboard() {
         <aside className="hidden lg:flex flex-col w-64 fixed top-0 left-0 bottom-0 bg-[#111] border-r border-[#1a1a1a] p-6">
         
 
-          <nav className="space-y-1">
-            {[
-              { label: "Overview", active: true },
-              { label: "Orders", active: false },
-              { label: "Products", active: false },
-              { label: "Customers", active: false },
-              { label: "Analytics", active: false },
-              { label: "Settings", active: false },
-            ].map((item) => (
-            
-            ))}
-          </nav>
+    
 
           <div className="mt-auto">
             <div className="p-4 bg-[#1a1a1a] rounded-2xl">
