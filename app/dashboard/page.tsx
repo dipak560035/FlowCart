@@ -88,10 +88,7 @@ export default function Dashboard() {
     
 
           <div className="mt-auto">
-            <div className="p-4 bg-[#1a1a1a] rounded-2xl">
-              <p className="text-[#888] text-xs mb-2">Storage Used</p>
-            
-          </div>
+           
         </aside>
 
         {/* Main */}
