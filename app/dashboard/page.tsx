@@ -94,8 +94,7 @@ export default function Dashboard() {
             <div className="p-4 bg-[#1a1a1a] rounded-2xl">
               <p className="text-[#888] text-xs mb-2">Storage Used</p>
               <div className="w-full bg-[#222] rounded-full h-1.5 mb-2">
-                <div className="h-1.5 bg-[#e8ff47] rounded-full" style={{ width: "68%" }} />
-              </div>
+               
               <p className="text-white text-xs font-medium">6.8 GB / 10 GB</p>
             </div>
           </div>
