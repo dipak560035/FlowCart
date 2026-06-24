@@ -71,7 +71,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
     return (
       <div className="bg-[#1a1a1a] border border-[#2e2e2e] rounded-xl p-3 shadow-xl">
         <p className="text-[#888] text-xs mb-2">{label}</p>
-        <p className="font-display font-bold text-white text-sm">{formatPrice(payload[0].value)}</p>
+       
       </div>
     );
   }
